@@ -14,6 +14,5 @@ alias qa='git checkout qa && git pull && git merge develop && git push && git ch
 alias master='git checkout master && git pull && git merge qa && git push && git checkout develop'
 alias prod='git checkout prod && git pull && git merge master && git push && git checkout develop'
 alias sass='npm rebuild node-sass --force'
-alias mysql_container='docker run -d --name mysql -p 3306:3306 -v /data/mysql:/var/lib/mysql -e 
-MARIADB_ALLOW_EMPTY_PASSWORD=true mariadb/server:10.3'
+alias mysql_container='docker run -d --name mysql -p 3306:3306 -v /data/mysql:/var/lib/mysql -e MARIADB_ALLOW_EMPTY_PASSWORD=true mariadb/server:10.3'
 alias redis_container='docker run --name redis -d redis'
