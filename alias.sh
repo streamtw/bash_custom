@@ -6,6 +6,7 @@ alias killphp="kill \$(ps aux | grep [p]hp | awk '{print \$2}')"
 alias weather='curl -4 http://wttr.in/taipei'
 alias battery='pmset -g batt'
 alias t='vendor/bin/phpunit'
+alias gpu="eval \$(git push 2>&1 | grep git)"
 alias lfm='cd ~/projects/lfm-dev/vendor/unisharp/laravel-filemanager'
 alias y='HOST=0.0.0.0 API_BASE=http://'$(ip)':8000/api/v1 yarn dev'
 alias sass='npm rebuild node-sass --force'
