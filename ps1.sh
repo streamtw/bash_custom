@@ -12,4 +12,4 @@ export CYAN='\[\033[0;36m\]'
 export NC='\[\033[0m\]'
 export CLICOLOR=1
 export LSCOLORS=Exfxcxdxbxegedabagacad
-export PS1=$YELLOW'👑 \u'$GRAY' 📂 \W'$CYAN'$(parse_git_branch)\n'$GREEN'🌏 \t'$RED' ➜ '$NC
+export PS1='\n'$GREEN'🌏 \t'$GRAY' 📂 \W'$CYAN'$(parse_git_branch)\n'$YELLOW'➤  '$NC
